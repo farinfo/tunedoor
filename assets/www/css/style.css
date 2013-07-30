@@ -1,0 +1,34 @@
+@CHARSET "ISO-8859-1";
+.button {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #242124), color-stop(1, #918891) );
+	background:-moz-linear-gradient( center top, #242124 5%, #918891 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#242124', endColorstr='#918891');
+	background-color:#242124;
+	-moz-border-radius:16px;
+	-webkit-border-radius:16px;
+	border-radius:16px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#140b14;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:6px 10px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #4a434a;
+	
+}.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #918891), color-stop(1, #242124) );
+	background:-moz-linear-gradient( center top, #918891 5%, #242124 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#918891', endColorstr='#242124');
+	background-color:#918891;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+body{
+	
+	background-color: gray;
+	
+}
