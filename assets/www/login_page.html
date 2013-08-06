@@ -8,22 +8,22 @@
 <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.2.css" />
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/jquery.mobile-1.3.2.min.js"></script>
-<!-- <script src="js/cordova.js"></script> -->
+<script src="js/cordova.js"></script>
 <script src="js/record.js"></script>
 
 </head>
-<body>
-
+<body >
+  <div data-role="page">
 	<div data-role="header">
-		<h1>tuneDoor</h1>
-
+		<h1>Login on TuneDoor</h1>
+	</div>
+	<div>
+	<label for="basic">Email:</label>
+    <input type="text" name="email" id="basic" value="" data-mini="true" />
+    <label for="basic">password:</label>
+    <input type="password" name="password" id="basic" value=""   data-mini="true"/>
 	</div>
 	</div>
 
-<a data-role="button" id="recordBtn"> record</a>
-<!-- 	<a data-role="button" id="#stopBtn" > stop</a> -->
-<a data-role="button" id="stopBtn"  href="save_dialog.html" data-rel="dialog"> stop</a>
-
-<!-- 	<a data-role="button" id="playBtn" > play beep</a> -->
 </body>
 </html>
